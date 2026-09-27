@@ -1,1 +1,17 @@
-{"background_color":"#101318","display":"standalone","icons":[{"sizes":"144x144","src":"index.144x144.png","type":"image/png"},{"sizes":"180x180","src":"index.180x180.png","type":"image/png"},{"sizes":"512x512","src":"index.512x512.png","type":"image/png"}],"name":"Stat Sheet","orientation":"portrait","start_url":"./index.html"}
+{
+  "name": "Stat Sheet",
+  "short_name": "Stat Sheet",
+  "description": "Echte Ziele als Quests, mit Level, Stats, Fähigkeiten und Traits.",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101318",
+  "theme_color": "#101318",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
